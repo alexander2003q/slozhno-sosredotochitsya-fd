@@ -10,6 +10,7 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   --background-picture: url('../images/cover-image-light.png');
+  --page-background-color: #fff1f7;
   --paragraph-text-color: #353430;
   --header-background-color: #ff8dcb;
   --title-decor-text-color: #353430;
@@ -25,9 +26,10 @@
   display: none;
 }
 
-/* @media (prefers-color-scheme: light) {
+@media (prefers-color-scheme: light) {
   :root:not(.theme-dark) {
     --background-picture: url('../images/cover-image-light.png');
+    --page-background-color: #fff1f7;
     --paragraph-text-color: #353430;
     --header-background-color: #ff8dcb;
     --title-decor-text-color: #353430;
@@ -38,9 +40,10 @@
     --button-border-color: #353430;
     --button-hover-border-color: rgba(50, 49, 45, 0.4);
     --decoration-color: #353430;
+    --subsection-item-title-color: #353430;
   }
 
   :root:not(.theme-dark) .header__rec {
     display: none;
   }
-} */
+}

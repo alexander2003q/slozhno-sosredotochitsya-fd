@@ -21,7 +21,7 @@ h5,
 h6,
 p {
   margin: 0;
-  font-weight: none;
+  font-weight: inherit;
   font-size: inherit;
 }
 
@@ -34,6 +34,12 @@ ul {
 picture {
   margin: 0;
   padding: 0;
+}
+
+img {
+  display: block;
+  max-inline-size: 100%;
+  block-size: auto;
 }
 
 button,

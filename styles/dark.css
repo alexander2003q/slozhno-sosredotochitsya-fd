@@ -10,6 +10,7 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   --background-picture: url('../images/cover-image-dark.png');
+  --page-background-color: #000028;
   --paragraph-text-color: #f1b2ce;
   --header-background-color: #ff0070;
   --subsection-title-color: #ff0070;
@@ -19,4 +20,21 @@
   --button-border-color: #ff0070;
   --decoration-color: #ff0070;
   --subsection-item-title-color: #000028;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not(.theme-light) {
+    --background-picture: url('../images/cover-image-dark.png');
+    --page-background-color: #000028;
+    --paragraph-text-color: #f1b2ce;
+    --header-background-color: #ff0070;
+    --subsection-title-color: #ff0070;
+    --header-title-color: #db00ff;
+    --header-title-shadow: #ff0070;
+    --button-text-color: #ff0070;
+    --button-border-color: #ff0070;
+    --button-hover-border-color: rgba(255, 0, 112, 0.4);
+    --decoration-color: #ff0070;
+    --subsection-item-title-color: #000028;
+  }
 }

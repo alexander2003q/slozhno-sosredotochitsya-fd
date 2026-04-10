@@ -5,6 +5,7 @@
 
 :root {
   --background-picture: url('../images/cover-image-light.png');
+  --page-background-color: #fff1f7;
   --font-family: 'IBM Plex mono', 'Arial', sans-serif;
   --main-color: #ffc2e6;
   --accent-color: #ff8dcb;
@@ -18,4 +19,5 @@
   --button-border-color: #353430;
   --button-hover-border-color: rgba(50, 49, 45, 0.4);
   --decoration-color: #353430;
+  --subsection-item-title-color: #353430;
 }
