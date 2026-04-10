@@ -229,6 +229,7 @@
 
 .footer__title {
   font-size: 116px;
+  font-weight: 700;
   line-height: 83%;
   color: var(--header-title-color);
   text-shadow: 4px 4px 0 var(--header-title-shadow);
